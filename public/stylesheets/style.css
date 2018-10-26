@@ -1,0 +1,93 @@
+
+
+/*导航条整体样式*/
+
+#navDIV {
+	font-weight: bold;
+	font-family: "微软雅黑";
+	align-items: center;
+}
+
+
+/*导航条链接按钮样式*/
+
+#menuUL {
+	font-size: medium;
+	font-family: "新宋体";
+}
+/*地图显示Div************************************************/
+
+/*#map {
+	padding: 0;
+	margin-top: 50px;
+	height: 91.5%;
+	width: 100%;
+}*/
+
+#map {
+	margin-top: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+/*解决弹出框隐藏在map下的问题:
+给弹出的div设置一个position属性，然后z-index设置为大于其他的层*/
+/****************************************弹出窗口******************************************/
+#popDiv {
+position: absolute;
+z-index: 2;
+visibility: hidden;
+overflow: hidden;
+border: 2px solid #AEBBCA;
+background-color: #EEF1F8;
+cursor: move;
+padding: 1px;
+}
+
+#popTitle {
+background: #9DACBF;
+height: 20px;
+line-height: 20px;
+padding: 1px;
+}
+
+#popForm {
+padding: 2px;
+position:absolute; 
+height:400px; 
+overflow:auto
+}
+
+.title_left {
+font-weight: bold;
+padding-left: 5px;
+float: left;
+}
+
+.title_right {
+float: right;
+}
+
+#popTitle .title_right a {
+color: #000;
+text-decoration: none;
+}
+
+#popTitle .title_right a:hover {
+text-decoration: underline;
+color: #FF0000;
+}
+
+
+/*****************************************************************************************/
+
+/*********右下角Scroll滚轮效果*********************************************************************/
+
+.script_option {
+	text-align: center;
+	padding-bottom: 20px;
+}

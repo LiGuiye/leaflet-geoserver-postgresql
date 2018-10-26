@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+			<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<!--bootstrap&jQuery (necessary for Bootstrap's JavaScript plugins)-->
+		<link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+		<script type="text/javascript" src="/javascripts/jquery.min.js" ></script>
+		<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+		<!--leaflet-->
+		<script type="text/javascript" src="/javascripts/leaflet/leaflet.js"></script>
+		<script type="text/javascript" src="/javascripts/leaflet.ChineseTmsProviders.js"></script>
+		<link rel="stylesheet" href="/javascripts/leaflet/leaflet.css" />
+		<!--自己写的样式-->
+		<link rel="stylesheet" href="/stylesheets/style.css">
+		<!--turfjs-->
+		<!--<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>-->
+		<!--弹出框-->
+		<script type="text/javascript" src="/javascripts/pop.js"></script>
+		<!--搜索数据库-->
+		<script type="text/javascript" src="/javascripts/search.js" ></script>
+		<title>
+			<%=title%>
+		</title>
+
+	</head>
+
+	<body onload="showPopup()">
