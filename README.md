@@ -2,3 +2,5 @@
 使用简单的nodejs和express、bootstrap框架实现。
 
 leaflet调用geoserver发布的wfs服务查询postgresql数据库中的内容并返回前端，将数据库中的信息显示在自己写的弹出框里，而不是leaflet写好的popup
+
+为了获取数据库中感兴趣的查询字段，更改了leaflet.js的源码，所以记得更改
